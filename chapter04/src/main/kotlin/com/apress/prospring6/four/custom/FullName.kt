@@ -34,6 +34,6 @@ package com.apress.prospring6.four.custom
 class FullName(val firstName: String, val lastName: String) {
 
     override fun toString(): String {
-        return "firstName=§{firstName}, lastName=${lastName}"
+        return "firstName=${firstName}, lastName=${lastName}"
     }
 }
